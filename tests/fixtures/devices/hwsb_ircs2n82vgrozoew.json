@@ -10,9 +10,9 @@
   "online": true,
   "sub": false,
   "time_zone": "-04:00",
-  "active_time": 1788641646,
-  "create_time": 1788641646,
-  "update_time": 1788641646,
+  "active_time": "2026-09-05T20:54:06+00:00",
+  "create_time": "2026-09-05T20:54:06+00:00",
+  "update_time": "2026-09-05T20:54:06+00:00",
   "function": {},
   "local_strategy": {
     "5": {
@@ -35,6 +35,10 @@
     }
   },
   "status": {
-    "cur_power": 350
-  }
+    "cur_power": 507
+  },
+  "set_up": false,
+  "support_local": true,
+  "quirk": null,
+  "warnings": null
 }

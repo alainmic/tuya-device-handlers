@@ -48,19 +48,8 @@ from tuya_device_handlers.const import DPMode
         dpcode="speed_current",
         dpmode=DPMode.READ,
         unit="%",
-        min=30,
-        max=120,
-        scale=0,
-        step=1,
-    )
-    # DP 5: Real-time electrical power consumption
-    .add_dpid_integer(
-        dpid=5,
-        dpcode="cur_power",
-        dpmode=DPMode.READ,
-        unit="W",
         min=0,
-        max=3000,
+        max=120,
         scale=0,
         step=1,
     )
